@@ -1,4 +1,4 @@
-package com.model.kanye;
+package com.model.sample;
 
 import java.text.DateFormat;
 import java.util.Date;
