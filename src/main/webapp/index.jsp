@@ -6,8 +6,9 @@
 	<title>Index</title>
 </head>
 <body>
-	
-	
-	
+<%
+	response.sendRedirect(request.getContextPath()+"/main");
+%>
+
 </body>
 </html>

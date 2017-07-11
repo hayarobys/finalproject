@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-123
+메인페이지다옹 
 </body>
 </html>

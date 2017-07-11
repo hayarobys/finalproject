@@ -28,7 +28,7 @@
 		
 	<servlet-mapping>
 		<servlet-name>appServlet</servlet-name>
-		<url-pattern>*.do</url-pattern>
+		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
 	<!-- 클라이언트로부터 오는 모든 쿼리에 대한 한글 인코딩 처리 '필터' -->
