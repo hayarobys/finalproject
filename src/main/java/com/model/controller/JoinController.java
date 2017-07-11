@@ -9,4 +9,12 @@ public class JoinController {
 	public String join() {
 		return "join/join";
 	}
+	@RequestMapping("login")
+	public String login() {
+		return "join/login";
+	}
+	@RequestMapping("id_pw_find")
+	public String IdPwFind(){
+		return"join/id_pw_fid";
+	}
 }
