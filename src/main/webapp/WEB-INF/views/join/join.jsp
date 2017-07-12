@@ -61,55 +61,54 @@
 </script>
 
 <body>
-<form  id="joinForm" action="welcome" method="post" onsubmit="return check()">
-	<h1 align="center">회원가입</h1>
-<table border="1" align="center">
-<tr>
-    <td>Email</td>
-    <td><input type="text" name="email" style="width: 99%; " /></td>
-</tr>
-<tr>
-    <td colspan="2" style="text-align: center;font-weight: bold;">
-    Email이 아이디로 사용됩니다.
-    </td>
-</tr>
-<tr>
-    <td>비밀번호</td>
-    <td><input type="password" name="passwd" style="width: 99%;" /></td>
-</tr>
-<tr>
-    <td>비밀번호 확인</td>
-    <td><input type="password" name="confirm" style="width: 99%;" /></td>
-</tr>
-<tr>
-    <td>이름</td>
-    <td style="width: 390px"><input type="text" name="name" style="width: 99%;" /></td>
-</tr>
-<tr>
-    <td>주소</td>
-    <td>
-    <input type="text" id="sample4_postcode" placeholder="우편번호">	
-    <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기"><br> 
-    <input type="text" id="sample4_roadAddress" placeholder="도로명주소">
-    <input type="text" id="sample4_jibunAddress" placeholder="지번주소">
-    <span id="guide" style="color:#999"></span>
-    </td>
-</tr>
-<tr>
-    <td>상세주소</td>
-    <td style="width: 390px"><input type="text" name="address" style="width: 99%;" /></td>
-<tr>
-    <td>전화번호</td>
-    <td><input type="text" name="mobile" style="width: 99%;" /></td>
-</tr>
-<tr>
-    <td>휴대폰번호</td>
-    <td><input type="text" name="mobile2" style="width: 99%;" /></td>
-</tr>
-<tr>
-  <td colspan="2" align="center"><input type="submit" value="확인" /></td>
-</tr>
-</table>
-</form>
+	<form  id="joinForm" action="welcome" method="post" onsubmit="return check()">
+		<h1 align="center">회원가입</h1>
+		<table border="1" align="center">
+			<tr>
+				<td>Email</td>
+				<td><input type="text" name="email" style="width: 99%;" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center; font-weight: bold;">
+					Email이 아이디로 사용됩니다.</td>
+			</tr>
+			<tr>
+				<td>비밀번호</td>
+				<td><input type="password" name="passwd" style="width: 99%;" /></td>
+			</tr>
+			<tr>
+				<td>비밀번호 확인</td>
+				<td><input type="password" name="confirm" style="width: 99%;" /></td>
+			</tr>
+			<tr>
+				<td>이름</td>
+				<td style="width: 390px"><input type="text" name="name"
+					style="width: 99%;" /></td>
+			</tr>
+			<tr>
+				<td>주소</td>
+				<td><input type="text" id="sample4_postcode" placeholder="우편번호">
+					<input type="button" onclick="sample4_execDaumPostcode()"
+					value="우편번호 찾기"><br> <input type="text"
+					id="sample4_roadAddress" placeholder="도로명주소"> <input
+					type="text" id="sample4_jibunAddress" placeholder="지번주소"> <span
+					id="guide" style="color: #999"></span></td>
+			</tr>
+			<tr>
+				<td>상세주소</td>
+				<td style="width: 390px"><input type="text" name="address" style="width: 99%;" /></td>
+			<tr>
+				<td>전화번호</td>
+				<td><input type="text" name="mobile" style="width: 99%;" /></td>
+			</tr>
+			<tr>
+				<td>휴대폰번호</td>
+				<td><input type="text" name="mobile2" style="width: 99%;" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit" value="확인" /></td>
+			</tr>
+		</table>
+	</form>
 </body>
 </html>
