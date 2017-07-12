@@ -61,9 +61,9 @@
 </script>
 
 <body>
-	<h1>회원가입</h1>
-<form  id="joinForm" action="join" method="post" onsubmit="return check()">
-<table border="1">
+<form  id="joinForm" action="welcome" method="post" onsubmit="return check()">
+	<h1 align="center">회원가입</h1>
+<table border="1" align="center">
 <tr>
     <td>Email</td>
     <td><input type="text" name="email" style="width: 99%; " /></td>

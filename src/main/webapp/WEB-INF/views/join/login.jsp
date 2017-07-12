@@ -7,7 +7,6 @@
 	<title>Insert title here</title>
 </head>
 <body>
-	로그인 페이지
 	<a href="/kanye/id_find">아이디찾기</a>
 </body>
 </html>
