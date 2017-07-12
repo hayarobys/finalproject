@@ -19,6 +19,6 @@ public class JoinController {
 	}
 	@RequestMapping("welcome")
 	public String welcome(){
-		return"join/welcome";
+		return"join/welcome"; 
 	}
 }
