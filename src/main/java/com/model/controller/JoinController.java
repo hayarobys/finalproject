@@ -17,4 +17,8 @@ public class JoinController {
 	public String IdPwFind(){
 		return"join/id_pw_fid";
 	}
+	@RequestMapping("welcome")
+	public String welcome(){
+		return"join/welcome"; 
+	}
 }
